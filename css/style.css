@@ -752,27 +752,27 @@ Icons
   background-color: #e9f0fd;
 }
 
-.flex-position {
+.news_list {
   display: flex;
   justify-content: center;
 }
 
 /* Оформление текста */
 
-.news-item {
+.news_item {
   flex-basis: 350px;
   margin-right: 30px;
 }
 
-.news-item:nth-last-child(-n + 1) {
+.news_item:nth-last-child(-n + 1) {
   margin-right: 0px;
 }
 
-.block-news img {
+.news_img {
   margin-bottom: 15px;
 }
 
-.block-news h3 {
+.news_title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -786,7 +786,7 @@ Icons
   color: #555252;
 }
 
-.preview {
+.news_preview {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -800,7 +800,7 @@ Icons
   margin-bottom: 20px;
 }
 
-.button-news {
+.news_button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -811,15 +811,16 @@ Icons
   background-color: #17a186;
 }
 
-.block-news:hover .button,
-.block-news:focus .button {
+.news_card:hover .button,
+.news_card:focus .button {
   background-color: #17a186;
 }
 
-/* Footer
+/* 
+Footer
  */
 
-.site-footer {
+.footer {
   padding-top: 100px;
   padding-bottom: 135px;
   background-image: url(../img/bg2decor-full.png);
@@ -827,7 +828,7 @@ Icons
   background-color: #4ec6ab;
 }
 
-.title-footer {
+.footer_title {
   position: relative;
   font-family: 'Roboto', sans-serif;
   font-size: 48px;
@@ -844,7 +845,7 @@ Icons
   margin-right: auto;
 }
 
-.title-footer::after {
+.footer_title::after {
   content: '';
 
   background-image: url(../img/3.png);
@@ -856,7 +857,7 @@ Icons
   margin-top: 20px;
 }
 
-.text-footer {
+.footer_text {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -868,7 +869,7 @@ Icons
   margin-bottom: 45px;
 }
 
-.button-email {
+.form_button {
   border: 2px solid #fff;
   border-radius: 0px 5px 5px 0px;
   width: 85px;
@@ -881,18 +882,18 @@ Icons
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-email:hover,
-.button-email:focus {
+.form_button:hover,
+.form_button:focus {
   background-color: #17a186;
   cursor: pointer;
 }
 
-.footer-email {
+.footer_form {
   display: flex;
   justify-content: center;
 }
 
-.enter-email input {
+.form_input {
   display: block;
   width: 450px;
   height: 60px;
